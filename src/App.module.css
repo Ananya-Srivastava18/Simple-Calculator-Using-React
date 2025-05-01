@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  background-color: #f8f8f8; /* optional */
+}
+
+/* Style for your centered calculator */
+
+.calculator {
+  width: 90%;
+  max-width: 400px;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center; /* optional */
+  margin: 170px 550px;
+  background-color: rgb(17, 82, 110);
+  border: 1px solid rgba(90, 90, 90);
+  width: 200px;
+  border-radius: 5px;
+}
